@@ -5,8 +5,7 @@ const nextConfig: NextConfig = {
     return [
       {
         source: "/:path*",
-        has: [{ type: "host", value: "www.mark.engineering" }],
-        destination: "https://www.thinkwithmark.com/:path*",
+        destination: "https://www.thinkwithmark.com",
         permanent: true,
       },
     ];
@@ -14,5 +13,3 @@ const nextConfig: NextConfig = {
 };
 
 export default nextConfig;
-
-//test
